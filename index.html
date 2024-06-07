@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- o atributo defer garante que o javascript seja executado após o html ser totalmente carregado -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="calc-container">
+        <div id="calc-title">
+            <p>ㅤ<i class="fa-solid fa-calculator fa-lg" style="color: #0e0e9a;"></i>ㅤCalculadora</p>
+        </div>
+        <div class="calc-operations">
+            <div id="calc-preview"></div>
+            <div id="calc-visor">0</div>
+        </div>
+        <div id="botoes">
+            <button id="apagar-opatual">CE</button>
+            <button id="apagar-tudo">C</button>
+            <button id="apagar-numero">⌫</button>
+            <button class="operacoes">/</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operacoes">*</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operacoes">-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operacoes">+</button>
+            <button class="numero">0</button>
+            <button id="virgula">.</button>
+            <button id="igual">=</button>
+        </div>
+</body>
+</html>
